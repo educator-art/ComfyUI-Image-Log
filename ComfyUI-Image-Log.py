@@ -197,7 +197,7 @@ def html_create(filepaths, results):
     </head>
 
     <body>
-        <h1>ComfyUI_Image_Gallery</h1>
+        <h1>ComfyUI-Image-Log</h1>
             {content}
         </div>
     </body>
@@ -264,7 +264,7 @@ def main():
             html_content = html_create(png_files, results)
 
             # HTMLファイルとして保存
-            output_filename = "ComfyUI_Image_Gallery.html"
+            output_filename = "ComfyUI-Image-Log.html"
             with open(os.path.join(folder_path,output_filename), "w", encoding="utf-8") as f:
                 f.write(html_content)
 
