@@ -104,13 +104,13 @@ def find_prompt_value(data):
     final_positive_text = ",".join(text_list_positive)
     final_negative_text = ",".join(text_list_negative)
 
-    # Dynamic Promptなど、プロンプトを改行を表示するときにコメントアウトする
+    # Dynamic Promptなど、プロンプトを改行を表示するときにアンコメントする
     #final_positive_text=final_positive_text.replace("\n", "<br>")
     
     final_positive_text=final_positive_text.replace("\n", "")
     final_positive_text = re.sub(r" {2,}", "", final_positive_text)
 
-    # Dynamic Promptなど、プロンプトを改行を表示するときにコメントアウトする
+    # Dynamic Promptなど、プロンプトを改行を表示するときにアンコメントする
     #final_negative_text=final_negative_text.replace("\n", "<br>")
 
     final_negative_text=final_negative_text.replace("\n", "")
@@ -162,7 +162,7 @@ def html_create(filepaths, results):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>画像ギャラリー</title>
+        <title>ComfyUI-Image-Gallery</title>
         <style>
             .container {{
                 display: flex;
@@ -197,7 +197,7 @@ def html_create(filepaths, results):
     </head>
 
     <body>
-        <h1>ComfyUI-Image-Log</h1>
+        <h1>ComfyUI-Image-Gallery</h1>
             {content}
         </div>
     </body>
