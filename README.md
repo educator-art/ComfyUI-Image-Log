@@ -25,6 +25,8 @@
 # プロジェクトをクローンする
 git clone https://github.com/educator-art/ComfyUI-Image-Log
 
+cd ComfyUI-Image-Log
+
 # 仮想環境の作成をする
 py -3.11 -m venv build_env 
 build_env\Scripts\activate
