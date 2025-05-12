@@ -1,6 +1,6 @@
-==============================================
+==================================================================
 [ComfyUI-Image-Log]
-==============================================
+==================================================================
 MIT License
 
 Copyright (c) 2025 e
@@ -23,10 +23,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-==============================================
+==================================================================
 [Pillow]
 https://github.com/python-pillow/Pillow?tab=License-1-ov-file
-==============================================
+==================================================================
 
 The Python Imaging Library (PIL) is
 
@@ -59,10 +59,10 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
 OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 
-==============================================
+==================================================================
 [Nuitka]
 https://github.com/Nuitka/Nuitka?tab=License-1-ov-file
-==============================================
+==================================================================
 
                                     Apache License
                            Version 2.0, January 2004
