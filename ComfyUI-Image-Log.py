@@ -67,8 +67,8 @@ def find_prompt_value(data):
     text_list_negative = []
 
     def search(node_id, mode):
-        print(node_id)
         """ 指定されたノードIDから再帰的にテキストを探索 """
+        # print(node_id)
         if node_id in data:
             obj = data[node_id]["inputs"]
 
@@ -97,8 +97,8 @@ def find_prompt_value(data):
         if "negative" in data[key]["inputs"]:
             search(data[key]["inputs"]["negative"][0], "negative")  # negativeを探索
 
-    print(f"text_list_positive->{text_list_positive}")
-    print(f"text_list_negative->{text_list_negative}")
+    #print(f"text_list_positive->{text_list_positive}")
+    #print(f"text_list_negative->{text_list_negative}")
 
     # , で区切ると丁度いいかもしれない
     final_positive_text = ",".join(text_list_positive)
