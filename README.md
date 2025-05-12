@@ -48,5 +48,5 @@ pip list
 ### ビルドする方法
 
 ```
-python -m　nuitka --onefile --standalone  ComfyUI-Image-Log.py
+python -m　nuitka --onefile --standalone ComfyUI-Image-Log.py
 ```
