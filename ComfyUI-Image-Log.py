@@ -162,7 +162,7 @@ def html_create(filepaths, results):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ComfyUI-Image-Gallery</title>
+        <title>ComfyUI-Image-Log</title>
         <style>
             .container {{
                 display: flex;
@@ -197,7 +197,7 @@ def html_create(filepaths, results):
     </head>
 
     <body>
-        <h1>ComfyUI-Image-Gallery</h1>
+        <h1>ComfyUI-Image-Log</h1>
             {content}
         </div>
     </body>
