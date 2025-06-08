@@ -23,6 +23,7 @@ def find_key(data):
                     denoise_value = obj.get("denoise")
                     if steps_value != None:
                         results[key]=value
+                        results["steps"]=steps_value
                         results["cfg"]=cfg_value
                         results["sampler_name"]=sampler_name_value
                         results["scheduler"]=scheduler_value
